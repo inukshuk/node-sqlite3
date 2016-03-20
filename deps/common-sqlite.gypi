@@ -35,6 +35,9 @@
         'defines': [
           'NDEBUG'
         ],
+        'cflags': [
+          '-DHAVE_USLEEP=1'
+        ],
         'xcode_settings': {
           'OTHER_CPLUSPLUSFLAGS!': [
             '-Os',
